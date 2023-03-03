@@ -1,0 +1,12 @@
+git config --global user.name
+git config --global user.email
+
+git add --add
+git add + filename
+git commit -m "description"
+
+git status
+
+git branch
+git branch + newBranchName
+git branch checkout + branchName 
