@@ -24,7 +24,7 @@ git branch
 # check local branch(s)
 git branch + newBranchName
 # creates a new branch
-git branch checkout + branchName 
+git checkout + branchName 
 # switches to a specific branch
 git push origin --delete github
 # delete branch remotely
