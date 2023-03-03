@@ -1,7 +1,0 @@
-turn on ssh service in both PC
-
-command:
-scp user@server:/path/to/remotefile.zip /Local/Target/Destination
-{
-pwd	check local path
-}
