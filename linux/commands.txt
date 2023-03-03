@@ -1,0 +1,14 @@
+pwd
+# prints current path
+
+cp
+# copy file
+
+rm -rf folderName
+# removes folder with files inside
+
+touch fileName
+# creates a file
+
+mkdir folderName
+#creates a folder
