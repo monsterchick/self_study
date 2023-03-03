@@ -13,3 +13,8 @@ git clean -i
 reference:
 https://stackoverflow.com/questions/4858047/gitignore-and-the-following-untracked-working-tree-files-would-be-overwritten
 =========================================================================
+.DS_Store always appeared when pushing changes to remote rep
+
+solution:
+adds .DS_Store into .gitignore file
+echo .DS_Store >> ./.gitignore
