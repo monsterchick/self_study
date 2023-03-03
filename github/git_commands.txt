@@ -31,3 +31,6 @@ git branch checkout + branchName
 
 git push origin --delete github
 # delete branch remotely
+
+echo .DS_Store >> ./.gitignore
+# put .DS_Store into gitignore
