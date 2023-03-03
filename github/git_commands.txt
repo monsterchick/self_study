@@ -22,15 +22,14 @@ git commit -m "description"
 
 git branch
 # check local branch(s)
-
 git branch + newBranchName
 # creates a new branch
-
 git branch checkout + branchName 
 # switches to a specific branch
-
 git push origin --delete github
 # delete branch remotely
+git checkout origin/branchName
+# check remote branch(s)
 
 echo .DS_Store >> ./.gitignore
 # put .DS_Store into gitignore
