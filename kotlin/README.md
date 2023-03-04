@@ -1,2 +1,2 @@
-this branch records some some codes learned from university and 
+this branch records some codes learned from university and 
 internet.
