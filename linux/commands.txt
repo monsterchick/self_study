@@ -12,3 +12,12 @@ touch fileName
 
 mkdir folderName
 #creates a folder
+
+cd /
+# move to root directory
+cd -
+# move to the previous directory
+cd ..
+# move up one directory level
+cd ~
+# move from a higher level directory to a specific sub-directory 
