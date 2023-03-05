@@ -20,4 +20,6 @@ cd -
 cd ..
 # move up one directory level
 cd ~
-# move from a higher level directory to a specific sub-directory 
+# back to home directory
+# 1.generally using: cd / -> cd ~/directory_looking_for
+# 2.can also cd / -> nano ~/file_want_to_edit
