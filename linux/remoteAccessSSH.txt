@@ -1,8 +1,0 @@
-1.both PCs turn on ssh service
-
-2.command line:
-ssh remoteUsername@remoteIP	
-# check local ip: ifconfig
-# check local username: whoami
-
-3.enter password of remote PC

@@ -1,2 +1,1 @@
-# self_study
-# this repository records all skills of programming learned in the past.
+This branch is used for testing "git revert" and "git reset".
