@@ -33,3 +33,12 @@ git checkout origin/branchName
 
 echo .DS_Store >> ./.gitignore
 # put .DS_Store into gitignore
+
+git reset
+# pull the files from old version to local repository 
+# and back to previous version
+# all current commit will be clean up
+
+git log --oneline
+git log
+# check all commit info
