@@ -29,3 +29,8 @@ cd ~
 # the up one level
 # can copy file from current directory to other's
 # using: cp -R xxx.txt/ ../Desktop/yyy
+
+find . -name fileName 
+# look for the specific file in current and sub-directory
+find . -name *fileType eg.*jpg
+# look for all the specific type of file like jpg
