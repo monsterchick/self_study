@@ -1,0 +1,28 @@
+#reference:https://www.youtube.com/watch?v=I6PloKML_sc&t=766s
+#office document -->创建容器，把docker-compose填入portainer里的容器
+#查PUID,GUID:命令行输入id admin
+
+1.创建并共享三个文件夹/config /movies /music 等等(设置每个人可读写！)
+
+2.docker pull linuxserver/plex:lastest
+
+3.docker create \
+  --name=plex \
+  --net=host \
+  -e PUID=998 \
+  -e PGID=100 \
+  -e VERSION=docker \
+  -e UMASK_SET=022 \
+  -e PLEX_CLAIM= `` \
+  -v /opt/plex/Config/:/config \
+  -v /srv/dev-disk-by-label-mediadisk/Movies/:/movies \
+  -v /srv/dev-disk-by-label-mediadisk/Music/:/music \
+  -v /srv/dev-disk-by-label-mediadisk/TV/:/tv \
+  --restart unless-stopped \
+  linuxserver/plex
+#通过OMV查看绝对路径创建三个文件夹
+
+4.docker start plex
+
+http://192.168.1.105:32400/web
+
