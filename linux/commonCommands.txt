@@ -34,3 +34,7 @@ find . -name fileName
 # look for the specific file in current and sub-directory
 find . -name *fileType eg.*jpg
 # look for all the specific type of file like jpg
+
+lsof -i
+# check port
+

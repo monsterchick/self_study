@@ -1,0 +1,52 @@
+fdisk -l
+查看磁盘
+
+fdisk /dev/sda
+格式化
+
+d删除分区
+n创建新的分区，一直默认
+w保存退出
+
+格式化
+mkfs -t ext4 /dev/sda1
+
+mount /dev/sda1 /mnt
+挂载
+
+df-h	#挂载硬盘到系统
+
+vi etc/fstab	#加一条挂载的移动硬盘    
+apt install hdparm	#下载hdparm测速
+
+apt install samba samba-common-bin	#下载samba系统
+
+mkdir data	#在/mnt创建文件夹
+
+给文件夹赋予权限
+chown -R root:users /mnt/data    #-R指的是目录
+chmod -R ug=rwx,o=rx /mnt/data    #给使用者。群组，其他人赋予权限
+
+设置samba配置
+vi /etc/samba/smb.conf
+/Authen	   #查找位置
+security=user	#加一行
+read only = no	 #在[home]里把read only 改成yes
+
+#在结尾增加
+[public]  
+	comment = public storage   
+	path = /mnt/data
+	valid users = @users
+	force group = users
+	create mask = 0660
+	directory mask = 0771
+	read only = no
+#保存退出
+
+/etc/init.d/samba-ad-dc restart#重启
+
+smbpasswd -a pi#设置用户
+
+
+
