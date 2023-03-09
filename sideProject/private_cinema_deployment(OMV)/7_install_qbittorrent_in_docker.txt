@@ -1,0 +1,26 @@
+#添加/config和/download这两个文件夹
+
+1.docker pull linuxserver/qbittorrent
+
+2.docker create \
+  --name=qbittorrent \
+  -e PUID=998 \
+  -e PGID=100 \
+  -e TZ=Europe/London \
+  -e UMASK_SET=022 \
+  -e WEBUI_PORT=8085 \
+  -p 6881:6881 \
+  -p 6881:6881/udp \
+  -p 8085:8085 \
+  -v /opt/qbittorrent/config/:/config \
+  -v /srv/dev-disk-by-label-mediadisk/Qbit_download/:/download \
+  --restart unless-stopped \
+  linuxserver/qbittorrent
+
+
+3.docker start qbittorrent
+
+
+192.168.1.100:8085
+ac:admin
+pw:adminadmin

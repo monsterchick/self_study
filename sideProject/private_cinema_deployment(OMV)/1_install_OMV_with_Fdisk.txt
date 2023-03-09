@@ -1,0 +1,4 @@
+need:
+balenaEtcher
+openmediavault's ISO file
+a computer (as the NAS server)
