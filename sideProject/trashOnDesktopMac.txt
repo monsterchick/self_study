@@ -1,0 +1,12 @@
+ln -s ~/.Trash ~/Desktop/Trash
+# copy Trash directory to Desktop
+
+reference:
+https://cn.compien.com/how-add-trash-icon-desktop-mac-os-x
+# duplicate trash to desktop
+
+https://www.computerhope.com/unix/uln.htm
+# ln -s declaration
+
+https://support.apple.com/en-gb/guide/mac-help/mchlp2313/mac#:~:text=Select%20the%20file%20or%20folder,Paste%20in%20the%20menu%20bar.
+# replace folder's icon on mac
