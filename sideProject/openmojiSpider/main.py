@@ -30,7 +30,6 @@ def workOnSubUrl(mainUrl):
         imgLink = "https://openmoji.org/" + imgSrc.split('href="/')[1].split('\"')[0].replace("amp;","")
         imgName = re.findall(r'<h1 class="astro-3TWLDLUD">.*?</h1>', text)[0].split(">")[1].split("<")[0] + "_" + imgLink.split("=")[3] + ".png"
         downloadImage(imgLink, imgName)
-        print("____________end______________")
 
 
 url = "https://openmoji.org/library/"
