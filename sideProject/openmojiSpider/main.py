@@ -2,13 +2,6 @@ import os
 import requests
 import re
 
-count = 1
-fontUrl = "https://openmoji.org"
-url = "https://openmoji.org/library/"
-response = requests.get(url)
-text = response.text
-srcList = re.findall(r'data\Wsrc="/.*?/.*?/.*?/.*?.svg" alt=".*?"', text)
-
 
 def mkdir(path):
     # go to Desktop directory
@@ -21,8 +14,6 @@ def mkdir(path):
         print("folder existed!")
         pass
 
-
-mkdir("/Users/monstermac/Desktop/image")
 def downloadImage(image, imageName):
     # download images with svg format
     print("downloading {img}...".format(img=imageName))
@@ -30,19 +21,31 @@ def downloadImage(image, imageName):
     with open(os.getcwd() + "/image" + "/" + imageName, 'wb') as file:  # open the path of image file
         file.write(resImage.content)
     file.close()
+
+def workOnSubUrl(mainUrl):
+    response = requests.get(mainUrl)
+    text = response.text
+    imgSrcList = re.findall(r'id="downloadPNG" href=".*?" download', text)
+    for imgSrc in imgSrcList:
+        imgLink = "https://openmoji.org/" + imgSrc.split('href="/')[1].split('\"')[0].replace("amp;","")
+        imgName = re.findall(r'<h1 class="astro-3TWLDLUD">.*?</h1>', text)[0].split(">")[1].split("<")[0] + "_" + imgLink.split("=")[3] + ".png"
+        downloadImage(imgLink, imgName)
+        print("____________end______________")
+
+
+url = "https://openmoji.org/library/"
+response = requests.get(url)
+text = response.text
+srcList = re.findall(r'<a class="emojiDetailsLink astro-JSGNIHCK" href=".*?">', text)
+
+
+
+mkdir("/Users/monstermac/Desktop/image")
 for src in srcList:
     # get path of image
-    srcClip = src.split("\"")[1]
-    image = fontUrl + srcClip
-    # get name of image
-    nameClip = src.split("=")[2].split(";")[1]
-    # get code of image
-    codeClip = src.split(".")[0].split("/")[4]
-    # print(codeClip)
-    # print(os.path.join(os.path.expanduser("~"), "Desktop/image"))
-    imageName = "{num}_{nme}_{cd}.svg".format(num=count, nme=nameClip, cd=codeClip)
-    # print(imageName)ttt
-    count += 1
-    downloadImage(image,imageName)
-print("all done. Congratulations!")
+    srcClip = src.split("\"")[3].split("/")[2]
+    # get main url
+    mainUrl = url + srcClip
+    workOnSubUrl(mainUrl)
 
+print("all done. Congratulations!")
