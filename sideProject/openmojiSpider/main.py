@@ -14,6 +14,7 @@ def mkdir(path):
         print("folder existed!")
         pass
 
+
 def downloadImage(image, imageName):
     # download images with svg format
     print("downloading {img}...".format(img=imageName))
@@ -22,23 +23,22 @@ def downloadImage(image, imageName):
         file.write(resImage.content)
     file.close()
 
+
 def workOnSubUrl(mainUrl):
     response = requests.get(mainUrl)
     text = response.text
     imgSrcList = re.findall(r'id="downloadPNG" href=".*?" download', text)
     for imgSrc in imgSrcList:
-        imgLink = "https://openmoji.org/" + imgSrc.split('href="/')[1].split('\"')[0].replace("amp;","")
-        imgName = re.findall(r'<h1 class="astro-3TWLDLUD">.*?</h1>', text)[0].split(">")[1].split("<")[0] + "_" + imgLink.split("=")[3] + ".png"
+        imgLink = "https://openmoji.org/" + imgSrc.split('href="/')[1].split('\"')[0].replace("amp;", "")
+        imgName = re.findall(r'<h1 class="astro-3TWLDLUD">.*?</h1>', text)[0].split(">")[1].split("<")[0] + "_" + \
+                  imgLink.split("=")[3] + ".png"
         downloadImage(imgLink, imgName)
-        print("____________end______________")
 
 
 url = "https://openmoji.org/library/"
 response = requests.get(url)
 text = response.text
 srcList = re.findall(r'<a class="emojiDetailsLink astro-JSGNIHCK" href=".*?">', text)
-
-
 
 mkdir("/Users/monstermac/Desktop/image")
 for src in srcList:
