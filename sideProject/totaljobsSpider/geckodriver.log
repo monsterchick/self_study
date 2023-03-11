@@ -1,0 +1,129 @@
+1678490214616	geckodriver	INFO	Listening on 127.0.0.1:63174
+1678490215127	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63175" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileEE7yN3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678490216000	Marionette	INFO	Marionette enabled
+1678490216327	Marionette	INFO	Listening on port 63182
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63182
+WebDriver BiDi listening on ws://127.0.0.1:63175
+1678490216606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileEE7yN3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63175/devtools/browser/789492ef-c281-4f48-8444-6b54203ffdf4
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 35: TypeError: this.browsingContext.topChromeWindow is null
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+1678490314955	geckodriver	INFO	Listening on 127.0.0.1:63253
+1678490315462	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63254" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofilef6me0z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678490315887	Marionette	INFO	Marionette enabled
+1678490316036	Marionette	INFO	Listening on port 63261
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63261
+WebDriver BiDi listening on ws://127.0.0.1:63254
+1678490316368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofilef6me0z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63254/devtools/browser/1548cc2b-9e45-4be4-9eaf-22dfba1b767e
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+2023-03-10 23:19:04.677 firefox-bin[23533:739997] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+1678490392912	Marionette	INFO	Stopped listening on port 63182
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1678490408686	geckodriver	INFO	Listening on 127.0.0.1:63430
+1678490409194	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63431" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileTb5Vwv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678490409602	Marionette	INFO	Marionette enabled
+1678490409745	Marionette	INFO	Listening on port 63438
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63438
+WebDriver BiDi listening on ws://127.0.0.1:63431
+1678490410057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileTb5Vwv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63431/devtools/browser/d2f9836d-5452-4734-b4bf-4aa872bf7655
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir59SfriO7J/VQEiUSU/QV5v/GGYjLw0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1678490452441	geckodriver	INFO	Listening on 127.0.0.1:63583
+1678490452948	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63584" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofilepzTlT4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678490453359	Marionette	INFO	Marionette enabled
+1678490453476	Marionette	INFO	Listening on port 63591
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63591
+WebDriver BiDi listening on ws://127.0.0.1:63584
+1678490453784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofilepzTlT4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63584/devtools/browser/b42ef499-4bc4-42c7-aedb-7f67ccfc001b
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+1678490465264	Marionette	INFO	Stopped listening on port 63438
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1678490466828	Marionette	INFO	Stopped listening on port 63261
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1678490468848	Marionette	INFO	Stopped listening on port 63591
+1678490516247	geckodriver	INFO	Listening on 127.0.0.1:63645
+1678490516754	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63646" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileyNr1XC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678490517359	Marionette	INFO	Marionette enabled
+1678490517509	Marionette	INFO	Listening on port 63653
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63653
+WebDriver BiDi listening on ws://127.0.0.1:63646
+1678490517657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileyNr1XC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63646/devtools/browser/ee0f0bf5-78e2-4019-a2b0-5ab7492444aa
+1678490600050	geckodriver	INFO	Listening on 127.0.0.1:63698
+1678490600559	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63699" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileCj3xWt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678490601003	Marionette	INFO	Marionette enabled
+1678490601331	Marionette	INFO	Listening on port 63706
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 63706
+WebDriver BiDi listening on ws://127.0.0.1:63699
+1678490601574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/ty/qwmntq094w92x2cpjcdsbn1c0000gn/T/rust_mozprofileCj3xWt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63699/devtools/browser/c93be7de-2feb-4dee-b3cf-b32a840ea796
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: unreachable code after return statement
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.totaljobs.com/U1vPr_EmRbDyg/mLhHYu/GXNSUJbc/Xir5JXfriO7J/VQEiUSU/DgYJ/eywMQVE, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.totaljobs.com/viewlets/res/resultlist-renderer/uk/1_188_2__89addc829/unifiedResultlist.js, line 1366: Error: Call to https://www.totaljobs.com/personalisation/recommenderdatalogger/logdata failed.
+2023-03-10 23:29:06.825 firefox-bin[23825:746174] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+1678491428067	Marionette	INFO	Stopped listening on port 63706
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1678491429742	Marionette	INFO	Stopped listening on port 63653
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
